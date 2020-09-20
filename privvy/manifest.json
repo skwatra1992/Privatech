@@ -1,0 +1,13 @@
+{
+    "manifest_version":2,
+    "name":"List cookies",
+    "version":"1.0",
+    "description": "List cookies in the active tab.",
+    "browser_action":{
+        "default_title": "List cookies in the active tab",
+        "default_icon":"icon.png",
+        "default_popup":"popup.html"
+    },
+    "homepage_url": "https://github.com/pundreek-saurabh",
+    "permissions": ["cookies","<all_urls>","tabs"]
+}
