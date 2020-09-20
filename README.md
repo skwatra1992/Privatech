@@ -1,5 +1,5 @@
 # Privatech
-To run this application on your system , you need to follo the steps given below:-
+To run this application on your system , you need to follow the steps given below:-
 
 ### STEP 1:
 Go to Chrome browser and type "chrome://extensions/"
