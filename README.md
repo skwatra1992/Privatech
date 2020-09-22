@@ -1,6 +1,6 @@
 # Privatech
 
-Privatech is a privacy enhancing technology that is a web crawling browser application for mobile and desktop.
+Privatech is a privacy enhancing technology that is a web based application for mobile and desktop.
 
 ### Motivation
 There is an untapped market for consumers who want more control over their privacy rights. 
