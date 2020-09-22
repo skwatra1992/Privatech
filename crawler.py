@@ -1,4 +1,4 @@
-from flask import Flask,jsonify
+from flask import Flask,jsonify,make_response
 app=Flask(__name__)
 @app.route('/input/<query>')
 def crawl(query):
@@ -21,6 +21,10 @@ def crawl(query):
           for keyword in keywords:
              if line.lower().find(keyword)!=-1:
                 match.add(keyword)
+    if len(match)==0:
+        match.add("No Values Found")
     match=tuple(match)
-    return jsonify(val=match)
+    response=make_response(jsonify(val=match),200)
+    response.headers["Content-Type"]="application/json"
+    return response
 app.run()
